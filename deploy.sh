@@ -16,6 +16,7 @@ rm -rf docs/
 mkdir docs/
 
 cp -rf dist/ docs/
+rm -rf dist/
 
 # git init
 git add docs/*
